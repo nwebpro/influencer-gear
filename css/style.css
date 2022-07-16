@@ -86,7 +86,8 @@ img{
     font-weight: 700;
 }
 .hero-text a i,
-.see-more-button a i{
+.see-more-button a i,
+.fp-info a i{
     padding-left: 8px;
 }
 .hero-imag img{
@@ -105,7 +106,7 @@ img{
     border-bottom: 1px solid #C0CCDA1A;
 }
 /* ============================
-    Popular Collection Section Area
+    Popular Collection Area Style
 =============================== */
 .popular-collections{
     padding: 100px 0px;
@@ -177,4 +178,81 @@ img{
     font-weight: 700;
     color: rgba(224, 44, 109, 0.87);
 
+}
+/* ============================
+    Featured Products Area Style
+=============================== */
+.featured-product{
+    display: grid;
+    grid-template-columns: 404px 610px;
+    grid-gap: 96px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.fp-info h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+.fp-info p{
+    font-weight: 700;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-right: 100px;
+    margin-bottom: 26px;
+}
+.fp-info a{
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #fff;
+    font-weight: 700;
+}
+/* ============================
+    Footer Area Style
+=============================== */
+footer{
+    background: #0A0826;
+    padding: 50px 0px;
+    color: #fff;
+}
+.footer-wrapper, .social-links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-text h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 3px;
+}
+.footer-text p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: #D9DBE1;
+    margin-bottom: 3px;
+}
+.social-links{
+    margin-top: 20px;
+}
+.social-links li{
+    background-color: #22213C;
+    list-style-type: none;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+.social-links li:hover{
+    background-color: rgba(224, 44, 109, 0.87);
+}
+.social-links li a{
+    color: #fff;
+    font-size: 14px;
 }
