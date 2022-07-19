@@ -16,6 +16,9 @@ body{
 a{
     text-decoration: none;
 }
+img{
+    width: 100%;
+}
 .container{
     width: 100%;
     max-width: 1200px;
@@ -28,7 +31,7 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-top: 87px;
+    padding-top: 87px;
 }
 .hamburger-icon{
     display: none;
@@ -58,7 +61,8 @@ a{
     Hero Area Style
 =============================== */
 .hero-area{
-    display: flex;
+    display: grid;
+    grid-template-columns: 582px 475px;
     margin-right: 12px;
     grid-gap: 131px;
     align-items: center;
@@ -72,6 +76,7 @@ a{
 .hero-text p{
     font-weight: 600;
     margin-bottom: 26px;
+    padding-right: 70px;
 }
 .hero-text a{
     padding: 10px 24px;
@@ -89,3 +94,12 @@ a{
 /* ============================
     Image Grid Area Style
 =============================== */
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 61px;
+    align-items: center;
+    padding: 34px 45px 36px;
+    border-top: 1px solid #C0CCDA1A;
+    border-bottom: 1px solid #C0CCDA1A;
+}
