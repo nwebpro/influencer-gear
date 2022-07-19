@@ -92,9 +92,9 @@ img{
     width: 100%;
 }
 /* ============================
-    Image Grid Area Style
+    Client Image Grid Area Style
 =============================== */
-.image-grid{
+.client-image-grid{
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 61px;
